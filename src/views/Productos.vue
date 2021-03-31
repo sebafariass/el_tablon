@@ -22,7 +22,7 @@
    </div>
 
    <div>
-     <h1 class="text-center mb-5">Productos Disponibles</h1>
+     <h1 class="text-center texting_initial">Productos Disponibles</h1>
       <Grilla />
    </div>
 
@@ -44,7 +44,10 @@ export default {
 
 <style lang="scss">
 
-
+.texting_initial{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+}
 
  h1{
   font-family: 'Slabo 27px', serif;
@@ -58,13 +61,7 @@ export default {
 }
 @media (min-width: 780px) {
   
-.grid2{
-    display: grid;
-     grid-template-columns: 50% 50%;
-    text-align: center;
-     gap: 20px;
-     width: 100%;
-}
+
 }
 
 
@@ -74,7 +71,7 @@ export default {
     display: grid;
      grid-template-columns: 100%;
     text-align: center;
-     gap: 20px;
+     gap: 40px;
      width: 100%;
      justify-content: center;
       font-family: 'Oswald', sans-serif; 

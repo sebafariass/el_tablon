@@ -2,8 +2,8 @@
 <div class="contact_principal">
 
    <h2 class="text-center">Retira tu Pedido</h2>
- <i class="far fa-home-alt fa-2x"><span>Dirección : Isabel Riquelme #861.</span></i><br>
-      <i class="far fa-envelope fa-2x"><span> Email : fiambreseltablon@gmail.com</span></i><br>
+ <i class="far fa-home-alt fa-2x"><span>Dirección : Isabel Riquelme #861.</span></i><hr>
+      <i class="far fa-envelope fa-2x"><span> Email : fiambreseltablon@gmail.com</span></i><hr>
         <i class="fab fa-whatsapp fa-2x"><span> Contacto: +56998446413</span></i>
        <hr>
 
@@ -47,8 +47,8 @@ h2{
 }
 
 hr{
-  size: "7";
-   width: 70%;
+  
+   width: 50%;
 }
 
 .contact_principal{

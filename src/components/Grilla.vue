@@ -53,8 +53,9 @@ name: "Grilla",
     height: 70%;
     display:grid;
     grid-template-columns: 30% 30% 30%;
-     grid-template-rows: repeat(12, 1fr);
+      grid-auto-rows: 400px;
     row-gap: 75px;
+    
 }
 .grid div {
   color: black;
@@ -83,6 +84,8 @@ h4{
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
+      grid-auto-rows: 100px;
+
 }
 
 
@@ -91,16 +94,13 @@ h4{
 .grid{
     display: grid;
      grid-template-columns: 50% 50%;
-     row-gap: 20px;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+     row-gap: 50px;
+    
+  
   
   
 }
-  .imgDog{
-  height: auto;
-}
-
+  
 }
 
 
@@ -112,8 +112,8 @@ h4{
     display: grid;
      grid-template-columns: 50% 50%;
    justify-content: center;
-
-     row-gap: 100px;
+  
+     row-gap: 120px;
     
   
 }
@@ -123,4 +123,21 @@ h4{
 
 }
 
+
+@media (max-width: 300px) {
+  
+.grid{
+    display: grid;
+     grid-template-columns: 50% 50%;
+   justify-content: center;
+
+     row-gap: 150px;
+    
+  
+}
+  .imgDog{
+  height: auto;
+}
+
+}
 </style>

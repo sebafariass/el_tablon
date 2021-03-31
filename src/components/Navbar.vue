@@ -43,6 +43,8 @@ export default {
  
   
 }
+
+
 h1{
   align-content: center;
 }
